@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+body{
+    background-color: white;
+}
+
+.photo{
+    height: 400px;
+    padding: 10px;
+    width: 70%;
+    background-color:#3d83c4;
+    margin: 50px;
+    position: relative;
+    top:50px;
+    right: 20px;
+    border: solid 10px #1565af;
+    left: 20px;
+}
+div img{
+    position: absolute;
+    display: block;
+    height: 250px;
+    width: 250px;
+    border-radius: 100px;
+    right: 30%  ;
+    border: 2.5px solid wheat;
+}
+.menu{
+    position: relative;
+}
+ul{
+    list-style-type: none;
+    background-color:#3d83c4;
+    text-align: left;
+    color:  #2e003e;
+    position: absolute;
+    padding: 5px;
+    left: 20%;
+    bottom: 100px;
+    gap:5px ;
+    text-align: center;
+    
+}
+h2{
+    color:#2e003e
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: beige;
+    padding: 10px 100px;
+}
+header a {
+    padding-left: 15px;
+}
+ul li {
+    padding: 0px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color:#651e3e;
+}
+a:hover{
+    color: #fdf498;
+font-size: 15px;
+}
+@media (max-width:820px){
+    .photo{
+        height: 200px;
+        padding: 5px;
+        margin: 10px;
+        top: 20px;
+        right: 10px;
+    }
+    div img{
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+        right: 10%;
+    }
+    ul{
+        bottom: 5px;
+        left: 5%;
+        text-align: left;
+        font-size: 10px;
+
+
+    }
+}
+    @media (min-width:700px){
+        .photo{
+            height: 300px;
+            padding: 7.5px;
+            margin: 15px;
+            top: 30px;
+            right: 15px;
+        }
+        div img{
+            height: 100px;
+            width: 100px;
+            border-radius: 70px;
+            right: 15%;
+        }
+        ul{
+            bottom: 10px;
+            left: 7.5%;
+            text-align: left;
+            font-size: 20px;
+    
+    
+        }
+    }

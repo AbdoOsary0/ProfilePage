@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color:#3876BF;
+    width: 100%;
+    position: fixed;
+    z-index: 1001;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 150px;
+
+}
+.logo{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.6em;
+    color:#C5C6C7;
+}
+.navigation a{
+    color: #F1B4BB;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.navigation a:hover{
+color: rgb(20, 101, 148);
+font-size: large;
+}
+ section{
+    padding: 100px 200px;
+ }
+ .main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #001524;
+    
+ }
+ .main h2{
+    color: #66fcf1;
+    font-size: 1.4em;
+    font-weight: 450;
+ }
+ div h2 span{
+    display: inline-block;
+    color: #240090;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 10px;
+ }
+.main h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.photo{
+    width: 50%;
+}
+.photo img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    border: 5px solid #240090;
+    border-radius: 50%;
+    transition: 0.9s ease;
+}
+.photo img:hover{
+    transform: scale(1.2);
+}
+.Ico-media{
+    color:#fff;
+}
+.Ico-media a i {
+margin-left: 10px;
+font-size: 1.8em;
+padding-right: 10px;
+margin-right: 10px;
+margin-top: 10px;
+}
+.title{
+    color:#240090;
+    font-weight: 800;
+    font-size: 2.2em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-1{
+    background-color: #fff;
+    width: 21.25em;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px rgba(1 1 1/80%);
+    transition:3s ease;
+}
+.card-1 :hover{
+    transform: scale(1.2);
+}
+.card-1 h2{
+    font-weight:bold;
+    font-size: 2.2em;
+    color:#3a296e;
+}
+.card-1 i {
+    width: 70px;
+    background-color: #fff;
+    font-size: x-large;
+    display: inline-block;
+    justify-content: center;
+    height: 40px;
+    margin: 50%;
+}
+.card-1 p{
+    font-weight: 600;
+    color: #0b0c10;
+}
+.inf{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px 0 20px 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.inf h2{
+    color:#240090;
+    font-size: 2.25em;
+    font-weight: bold;  
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.inf-colleg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 5px 25px rgba(1 1 1/80%) ;
+}
+h3{
+    width: 100%/3;
+    padding: 5px;
+    display: flex;
+}
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px 20px 5px 20px ;
+    box-shadow: 0 5px 25px rgba(1 1 1/80%);
+}
+.gen-inf h3{
+    color: #240090;
+    padding: 2px;
+    margin: 10px;
+    width: 100%;
+}
+#list ol {
+    list-style: disc;
+    display: inline-block;
+    top: 50px;
+    font-size: 700;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    background-color:#3876BF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 9w0px;
+}
+footer p span{
+    font-size: 700;
+    font-weight: bold;
+    color: #001524;
+
+}
+footer #ico{
+    text-decoration: none;
+    display: felx;
+
+} 
+footer a i {
+    margin-left: 10px;
+    font-size: 1.8em;
+    padding-right: 7px;
+    margin-right: 7px;
+    margin-top: 7px;
+    color: black;
+}
